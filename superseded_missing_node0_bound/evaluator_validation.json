@@ -1,0 +1,444 @@
+{
+  "scope": "full 567 station evaluator verification; no new small instances",
+  "checks": 36,
+  "certified": 36,
+  "max_physical_discrepancy": 0.0,
+  "max_seconds": 0.43599659999999996,
+  "actual_outcomes_read": false,
+  "details": [
+    {
+      "case": "network_s0176_0000",
+      "routes": "baseline",
+      "method": "B",
+      "value": 42552.5,
+      "upper_bound": 42552.5,
+      "certified": true,
+      "seconds": 0.007740199999999975,
+      "backend": "exact_box_path_dp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0176_0000",
+      "routes": "baseline",
+      "method": "C0",
+      "value": 42322.5,
+      "upper_bound": 42322.5,
+      "certified": true,
+      "seconds": 0.028091699999999997,
+      "backend": "compact_aggregate_path_milp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0176_0000",
+      "routes": "baseline",
+      "method": "C0V",
+      "value": 42172.5,
+      "upper_bound": 42172.5,
+      "certified": true,
+      "seconds": 0.43599659999999996,
+      "backend": "compact_aggregate_path_milp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0176_0000",
+      "routes": "baseline",
+      "method": "D",
+      "value": 2100.0,
+      "upper_bound": 2100.0,
+      "certified": true,
+      "seconds": 0.007021500000000014,
+      "backend": "exact_nominal_path_dp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0176_0000",
+      "routes": "optional_cross_region",
+      "method": "B",
+      "value": 44632.5,
+      "upper_bound": 44632.5,
+      "certified": true,
+      "seconds": 0.00500389999999995,
+      "backend": "exact_box_path_dp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0176_0000",
+      "routes": "optional_cross_region",
+      "method": "C0",
+      "value": 44575.0,
+      "upper_bound": 44575.0,
+      "certified": true,
+      "seconds": 0.011433000000000026,
+      "backend": "compact_aggregate_path_milp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0176_0000",
+      "routes": "optional_cross_region",
+      "method": "C0V",
+      "value": 44370.0,
+      "upper_bound": 44370.0,
+      "certified": true,
+      "seconds": 0.05697579999999991,
+      "backend": "compact_aggregate_path_milp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0176_0000",
+      "routes": "optional_cross_region",
+      "method": "D",
+      "value": 4860.0,
+      "upper_bound": 4860.0,
+      "certified": true,
+      "seconds": 0.005012300000000081,
+      "backend": "exact_nominal_path_dp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0176_0000",
+      "routes": "idle",
+      "method": "B",
+      "value": 46362.5,
+      "upper_bound": 46362.5,
+      "certified": true,
+      "seconds": 0.0031891000000000558,
+      "backend": "exact_box_path_dp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0176_0000",
+      "routes": "idle",
+      "method": "C0",
+      "value": 46340.0,
+      "upper_bound": 46340.0,
+      "certified": true,
+      "seconds": 0.01189909999999994,
+      "backend": "compact_aggregate_path_milp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0176_0000",
+      "routes": "idle",
+      "method": "C0V",
+      "value": 46237.5,
+      "upper_bound": 46237.5,
+      "certified": true,
+      "seconds": 0.009344600000000036,
+      "backend": "compact_aggregate_path_milp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0176_0000",
+      "routes": "idle",
+      "method": "D",
+      "value": 7480.0,
+      "upper_bound": 7480.0,
+      "certified": true,
+      "seconds": 0.0030373000000000205,
+      "backend": "exact_nominal_path_dp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0224_0800",
+      "routes": "baseline",
+      "method": "B",
+      "value": 37195.0,
+      "upper_bound": 37195.0,
+      "certified": true,
+      "seconds": 0.006895499999999943,
+      "backend": "exact_box_path_dp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0224_0800",
+      "routes": "baseline",
+      "method": "C0",
+      "value": 37195.0,
+      "upper_bound": 37195.0,
+      "certified": true,
+      "seconds": 0.012864500000000056,
+      "backend": "compact_aggregate_path_milp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0224_0800",
+      "routes": "baseline",
+      "method": "C0V",
+      "value": 37175.0,
+      "upper_bound": 37175.0,
+      "certified": true,
+      "seconds": 0.027890399999999982,
+      "backend": "compact_aggregate_path_milp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0224_0800",
+      "routes": "baseline",
+      "method": "D",
+      "value": 2620.0,
+      "upper_bound": 2620.0,
+      "certified": true,
+      "seconds": 0.006679099999999938,
+      "backend": "exact_nominal_path_dp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0224_0800",
+      "routes": "optional_cross_region",
+      "method": "B",
+      "value": 39160.0,
+      "upper_bound": 39160.0,
+      "certified": true,
+      "seconds": 0.004834099999999952,
+      "backend": "exact_box_path_dp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0224_0800",
+      "routes": "optional_cross_region",
+      "method": "C0",
+      "value": 39160.0,
+      "upper_bound": 39160.0,
+      "certified": true,
+      "seconds": 0.009492300000000009,
+      "backend": "compact_aggregate_path_milp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0224_0800",
+      "routes": "optional_cross_region",
+      "method": "C0V",
+      "value": 39160.0,
+      "upper_bound": 39160.0,
+      "certified": true,
+      "seconds": 0.0139378,
+      "backend": "compact_aggregate_path_milp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0224_0800",
+      "routes": "optional_cross_region",
+      "method": "D",
+      "value": 5220.0,
+      "upper_bound": 5220.0,
+      "certified": true,
+      "seconds": 0.004864099999999927,
+      "backend": "exact_nominal_path_dp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0224_0800",
+      "routes": "idle",
+      "method": "B",
+      "value": 41140.0,
+      "upper_bound": 41140.0,
+      "certified": true,
+      "seconds": 0.0029693000000000636,
+      "backend": "exact_box_path_dp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0224_0800",
+      "routes": "idle",
+      "method": "C0",
+      "value": 41140.0,
+      "upper_bound": 41140.0,
+      "certified": true,
+      "seconds": 0.0062134000000000356,
+      "backend": "compact_aggregate_path_milp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0224_0800",
+      "routes": "idle",
+      "method": "C0V",
+      "value": 41140.0,
+      "upper_bound": 41140.0,
+      "certified": true,
+      "seconds": 0.0084865999999999,
+      "backend": "compact_aggregate_path_milp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0224_0800",
+      "routes": "idle",
+      "method": "D",
+      "value": 7580.0,
+      "upper_bound": 7580.0,
+      "certified": true,
+      "seconds": 0.0030361999999999334,
+      "backend": "exact_nominal_path_dp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0272_1600",
+      "routes": "baseline",
+      "method": "B",
+      "value": 36370.0,
+      "upper_bound": 36370.0,
+      "certified": true,
+      "seconds": 0.008121400000000056,
+      "backend": "exact_box_path_dp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0272_1600",
+      "routes": "baseline",
+      "method": "C0",
+      "value": 36130.0,
+      "upper_bound": 36130.000000000015,
+      "certified": true,
+      "seconds": 0.06474819999999992,
+      "backend": "compact_aggregate_path_milp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0272_1600",
+      "routes": "baseline",
+      "method": "C0V",
+      "value": 36110.0,
+      "upper_bound": 36110.0,
+      "certified": true,
+      "seconds": 0.4181182000000001,
+      "backend": "compact_aggregate_path_milp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0272_1600",
+      "routes": "baseline",
+      "method": "D",
+      "value": 2280.0,
+      "upper_bound": 2280.0,
+      "certified": true,
+      "seconds": 0.00705139999999993,
+      "backend": "exact_nominal_path_dp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0272_1600",
+      "routes": "optional_cross_region",
+      "method": "B",
+      "value": 39095.0,
+      "upper_bound": 39095.0,
+      "certified": true,
+      "seconds": 0.005239400000000005,
+      "backend": "exact_box_path_dp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0272_1600",
+      "routes": "optional_cross_region",
+      "method": "C0",
+      "value": 39070.0,
+      "upper_bound": 39070.0,
+      "certified": true,
+      "seconds": 0.018056400000000083,
+      "backend": "compact_aggregate_path_milp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0272_1600",
+      "routes": "optional_cross_region",
+      "method": "C0V",
+      "value": 38960.0,
+      "upper_bound": 38960.0,
+      "certified": true,
+      "seconds": 0.04120469999999998,
+      "backend": "compact_aggregate_path_milp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0272_1600",
+      "routes": "optional_cross_region",
+      "method": "D",
+      "value": 5580.0,
+      "upper_bound": 5580.0,
+      "certified": true,
+      "seconds": 0.005133100000000113,
+      "backend": "exact_nominal_path_dp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0272_1600",
+      "routes": "idle",
+      "method": "B",
+      "value": 41365.0,
+      "upper_bound": 41365.0,
+      "certified": true,
+      "seconds": 0.002898200000000184,
+      "backend": "exact_box_path_dp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0272_1600",
+      "routes": "idle",
+      "method": "C0",
+      "value": 41280.0,
+      "upper_bound": 41280.00000000001,
+      "certified": true,
+      "seconds": 0.06642809999999999,
+      "backend": "compact_aggregate_path_milp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0272_1600",
+      "routes": "idle",
+      "method": "C0V",
+      "value": 41265.0,
+      "upper_bound": 41265.0,
+      "certified": true,
+      "seconds": 0.006999200000000094,
+      "backend": "compact_aggregate_path_milp",
+      "physical_discrepancy": 0.0
+    },
+    {
+      "case": "network_s0272_1600",
+      "routes": "idle",
+      "method": "D",
+      "value": 8060.0,
+      "upper_bound": 8060.0,
+      "certified": true,
+      "seconds": 0.002914199999999978,
+      "backend": "exact_nominal_path_dp",
+      "physical_discrepancy": 0.0
+    }
+  ],
+  "timeout_refinement_checks": [
+    {
+      "case": "network_s0176_0000",
+      "first": {
+        "value": 28885.0,
+        "upper_bound": 42552.5,
+        "gap": 13667.5,
+        "certified": false,
+        "seconds": 0.014923400000000031
+      },
+      "final": {
+        "value": 42172.5,
+        "upper_bound": 42172.5,
+        "gap": 0.0,
+        "certified": true,
+        "seconds": 0.41923689999999997
+      },
+      "first_interval_contains_certified_value": true
+    },
+    {
+      "case": "network_s0272_1600",
+      "first": {
+        "value": 24490.0,
+        "upper_bound": 36370.0,
+        "gap": 11880.0,
+        "certified": false,
+        "seconds": 0.009974099999999986
+      },
+      "final": {
+        "value": 36110.0,
+        "upper_bound": 36110.0,
+        "gap": 0.0,
+        "certified": true,
+        "seconds": 0.4181568
+      },
+      "first_interval_contains_certified_value": true
+    }
+  ]
+}
